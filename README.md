@@ -1,63 +1,84 @@
-# 👨‍💻 Hello, I'm HyunPang!
+# 👋 안녕하세요, 백엔드 엔지니어 이현광(HyunPang)입니다.
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Role-Backend_Engineer-0052cc?style=flat-square" alt="Role">
-  <img src="https://img.shields.io/badge/Focus-Scalability_%26_Efficiency-6b7280?style=flat-square" alt="Focus">
-  <a href="https://Hyun-git.github.io/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-Visit_Blog-0052cc?style=flat-square&logo=jekyll&logoColor=white" alt="Portfolio">
+  <img src="https://img.shields.io/badge/Role-Backend_Engineer-0052cc?style=flat-square" alt="Backend Engineer">
+  <img src="https://img.shields.io/badge/Focus-Cloud_Platform_%26_AI_Integration-6b7280?style=flat-square" alt="Cloud Platform and AI Integration">
+  <a href="https://hyun-git.github.io/">
+    <img src="https://img.shields.io/badge/Portfolio-Read_Blog-0052cc?style=flat-square&logo=jekyll&logoColor=white" alt="Portfolio and blog">
   </a>
 </p>
 
-> **"지속 가능한 코드와 효율적인 아키텍처를 고민하는 백엔드 개발자입니다."**  
-> 복잡한 비즈니스 로직을 단순화하고, 데이터 기반의 의사결정을 통해 서비스의 가시성을 확보하는 것을 즐깁니다.
+> Node.js·TypeScript 기반 클라우드 개발 플랫폼의 백엔드 기능을 개발·운영해 왔습니다.  
+> 컨테이너 관리, 사용량 기반 과금·정산, MCP 도구 연동과 운영 흐름을 다룹니다.
+
+---
+
+### 👨‍💻 Experience
+
+**goorm · Full-Stack Developer (Backend 중심)** · `2023.01–2026.10`
+
+- 컨테이너 관리와 사용량 기반 과금·정산 API를 개발·운영하고, 정산 실패 재처리와 운영 상태 추적을 보완했습니다.
+- 47개 MongoDB 스키마를 공통 패키지로 정리해 3개 서비스에 적용하고, 스키마·인덱스 조회용 내부 UI를 개발했습니다.
+- 컨테이너 제어 MCP 서버와 기본 앱 API를 개발했습니다. 도구 명세, 부족한 입력 재질문, 설정 변경 전 확인 흐름을 구현했습니다.
+- AI 시험 환경에서 S3 코드 스냅샷, Kafka 채점 요청, MongoDB 결과 상태를 연동하고 세션 만료·Socket.IO 재접속 흐름을 개선했습니다.
+- 관리자·환불 API와 운영 로그 분류·알림 기능을 개발했습니다.
 
 ---
 
 ### 🛠️ Tech Stack
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" alt="NestJS">
-  <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express">
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis">
-</p>
+- **Backend:** JavaScript · TypeScript · Node.js · Express · NestJS
+- **Data & Messaging:** MongoDB · Mongoose · Redis · Kafka · Elasticsearch
+- **Platform & Integration:** AWS S3 · Docker · Kubernetes · Socket.IO · MCP
+- **Testing:** Jest · Playwright · Artillery · GitHub Actions
 
 ---
 
 ### 🌟 Featured Projects
 
-| <img src="https://github.com/Hyun-git/Hyun-git.github.io/raw/main/assets/images/farmeme.png" width="300px" alt="Farmeme"> | **Farmeme (Mash-Up 14기)** <br> 추천 밈 탐색 및 클립보드 저장 서비스 <br> • 아이폰 대용량 이미지 업로드 지연 문제 해결 <br> • 다수의 API 개발 및 백오피스 구축 <br> [GitHub](https://github.com/mash-up-kr/ppac-server)             |
-| :------------------------------------------------------------------------------------------------------------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <img src="https://github.com/Hyun-git/Hyun-git.github.io/raw/main/assets/images/twotoo.png" width="300px" alt="Twotoo">   | **Twotoo (Mash-Up 13기)** <br> 연인과 함께하는 22일 습관 형성 챌린지 <br> • NestJS → Express 마이그레이션으로 유지보수 효율 향상 <br> • MongoDB Atlas Chart 기반 데이터 대시보드 구축 <br> [GitHub](https://github.com/team-twotoo) |
+#### Farmeme · Mash-Up 14기
+
+<img align="right" src="https://github.com/Hyun-git/Hyun-git.github.io/raw/main/assets/images/farmeme.png" width="150" alt="Farmeme project">
+
+밈 콘텐츠 탐색·저장 서비스
+
+- 검색·추천·카테고리 API와 백오피스를 개발했습니다.
+- 업로드 이미지가 앱에서 더 빠르게 표시되도록 압축 설정을 단계별로 비교해 적용했습니다.
+- [Server Repository](https://github.com/mash-up-kr/ppac-server)
+
+<br clear="right">
+
+#### Twotoo · Mash-Up 13기
+
+<img align="right" src="https://github.com/Hyun-git/Hyun-git.github.io/raw/main/assets/images/twotoo.png" width="150" alt="Twotoo project">
+
+커플 챌린지 서비스
+
+- 운영 구성을 NestJS·Docker에서 Express·TypeScript·PM2로 전환했습니다.
+- MongoDB Atlas Charts로 사용자·챌린지·참여·매칭률 대시보드를 구성했습니다.
+- [Project Repository](https://github.com/mash-up-kr/TwoToo-Node)
+
+<br clear="right">
 
 ---
 
-### 📚 Latest Study
-최근 학습하고 블로그에 기록한 내용들입니다. (전체 목록은 [Study](https://Hyun-git.github.io/study)에서 확인 가능합니다.)
+### 📚 Recent Writing
 
-- [Rate Limit과 Fail Limit은 어디까지가 적절할까?](https://Hyun-git.github.io/api-limit.html)
-- [MongoDB Index, 제대로 이해하고 사용하기](https://Hyun-git.github.io/mongo-index.html)
-- [NestJS Request Lifecycle 깊게 파헤치기](https://Hyun-git.github.io/NestJS-request-lifecycle.html)
+- [CPU Throttling과 처리 용량](https://hyun-git.github.io/cpu-throttling-capacity.html)
+- [LiteLLM 동시성 제한](https://hyun-git.github.io/litellm-concurrency-limit.html)
+- [MongoDB Primary Stepdown](https://hyun-git.github.io/mongodb-primary-stepdown.html)
+- [전체 글 보기](https://hyun-git.github.io/study)
 
 ---
 
 ### 📊 GitHub Activity
 
-<p align="left">
-  <!-- 스트릭 스탯: 본인의 꾸준함을 강조 -->
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Hyun-git&theme=soft-primary&hide_border=true&stroke=0052cc&ring=0052cc&fire=0052cc&currStreakLabel=0052cc" alt="Hyun-git's Streak Stats" height="160">
-</p>
-
-<p align="left">
-  <!-- 활동 그래프: 최근 일주일간의 활동량 시각화 -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Hyun-git&theme=react&bg_color=ffffff&hide_border=true&color=0052cc&point=6b7280" alt="Hyun-git's Activity Graph" width="100%">
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Hyun-git&theme=react&bg_color=ffffff&hide_border=true&color=0052cc&point=6b7280" alt="HyunPang's GitHub activity graph" width="100%">
 </p>
 
 ---
 
 <p align="center">
-  📫 <b>Contact:</b> mabr2845@gmail.com | <a href="https://Hyun-git.github.io/">Portfolio Blog</a>
+  📫 <a href="mailto:mabr2845@gmail.com">mabr2845@gmail.com</a> · <a href="https://hyun-git.github.io/">Portfolio & Blog</a>
 </p>
