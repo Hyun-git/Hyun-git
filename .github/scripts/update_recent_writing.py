@@ -11,13 +11,17 @@ from xml.etree import ElementTree as ET
 from zoneinfo import ZoneInfo
 
 FEED_URL = "https://hyun-git.github.io/feed.xml"
+BLOG_HOST = "hyun-git.github.io"
 START = "<!-- recent-writing:start -->"
 END = "<!-- recent-writing:end -->"
 NS = {"atom": "http://www.w3.org/2005/Atom"}
 
 def normalize_url(value):
-    parts = urlsplit(value)
-    return urlunsplit((parts.scheme, parts.netloc, re.sub(r"/{2,}", "/", parts.path), parts.query, parts.fragment))
+    parts = urlsplit(value.strip())
+    if parts.scheme != "https" or parts.netloc.lower() != BLOG_HOST or not parts.path.startswith("/"):
+        raise ValueError(f"Feed link is outside the blog host: {value!r}")
+    path = re.sub(r"/{2,}", "/", parts.path)
+    return urlunsplit(("https", BLOG_HOST, path, parts.query, parts.fragment))
 
 def read_rows():
     request = Request(FEED_URL, headers={"User-Agent": "Hyun-git-profile-readme/1.0"})
