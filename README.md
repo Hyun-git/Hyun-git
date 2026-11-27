@@ -69,12 +69,13 @@
 - [LiteLLM 동시성 제한](<https://hyun-git.github.io/litellm-concurrency-limit.html>) · 2026.08.31
 - [MongoDB Primary Stepdown](<https://hyun-git.github.io/mongodb-primary-stepdown.html>) · 2026.08.28
 <!-- recent-writing:end -->
+
 ---
 
 ### 📊 GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Hyun-git&amp;custom_title=%EC%B5%9C%EA%B7%BC%2031%EC%9D%BC%20GitHub%20%EA%B8%B0%EC%97%AC&amp;days=31&amp;theme=react&amp;bg_color=ffffff&amp;hide_border=true&amp;color=0052cc&amp;line=0052cc&amp;point=6b7280&amp;title_color=0052cc&amp;height=250&amp;grid=false" alt="최근 31일 GitHub 기여 그래프" width="900">
+  <img src="https://github-readme-activity-graph.ashutosh-dwivedi0710.workers.dev/graph?username=Hyun-git&amp;custom_title=%EC%B5%9C%EA%B7%BC%2031%EC%9D%BC%20GitHub%20%EA%B8%B0%EC%97%AC&amp;days=31&amp;theme=github-compact&amp;bg_color=ffffff&amp;hide_border=true&amp;color=0052cc&amp;line=0052cc&amp;point=6b7280&amp;title_color=0052cc&amp;height=220&amp;grid=false" alt="최근 31일 GitHub 기여 그래프" width="820">
 </p>
 
 ---
