@@ -72,13 +72,6 @@
 
 ---
 
-### 📊 GitHub Activity
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.ashutosh-dwivedi0710.workers.dev/graph?username=Hyun-git&amp;custom_title=%EC%B5%9C%EA%B7%BC%2014%EC%9D%BC%20GitHub%20%EA%B8%B0%EC%97%AC&amp;days=14&amp;theme=github-compact&amp;bg_color=ffffff&amp;hide_border=true&amp;color=0052cc&amp;line=0052cc&amp;point=6b7280&amp;title_color=0052cc&amp;height=220&amp;grid=false" alt="최근 31일 GitHub 기여 그래프" width="820">
-</p>
-
----
 
 <p align="center">
   📫 <a href="mailto:mabr2845@gmail.com">mabr2845@gmail.com</a> · <a href="https://hyun-git.github.io/">Portfolio & Blog</a>
