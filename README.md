@@ -65,9 +65,9 @@
 ### 📚 Recent Writing <sub>· <a href="https://hyun-git.github.io/study">전체 글 보기 ↗</a></sub>
 
 <!-- recent-writing:start -->
-- [CPU Throttling](https://hyun-git.github.io/cpu-throttling-capacity.html) · 2026.09.01
-- [LiteLLM 동시성 제한](https://hyun-git.github.io/litellm-concurrency-limit.html) · 2026.08.31
-- [MongoDB Primary Stepdown](https://hyun-git.github.io/mongodb-primary-stepdown.html) · 2026.08.28
+- [CPU Throttling](<https://hyun-git.github.io/cpu-throttling-capacity.html>) · 2026.09.01
+- [LiteLLM 동시성 제한](<https://hyun-git.github.io/litellm-concurrency-limit.html>) · 2026.08.31
+- [MongoDB Primary Stepdown](<https://hyun-git.github.io/mongodb-primary-stepdown.html>) · 2026.08.28
 <!-- recent-writing:end -->
 ---
 
