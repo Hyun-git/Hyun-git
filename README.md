@@ -64,11 +64,13 @@
 
 ### 📚 Recent Writing
 
-- [CPU Throttling과 처리 용량](https://hyun-git.github.io/cpu-throttling-capacity.html)
-- [LiteLLM 동시성 제한](https://hyun-git.github.io/litellm-concurrency-limit.html)
-- [MongoDB Primary Stepdown](https://hyun-git.github.io/mongodb-primary-stepdown.html)
-- [전체 글 보기](https://hyun-git.github.io/study)
+<p align="left">
+  <a href="https://hyun-git.github.io/study">
+    <img src="./metrics.plugin.rss.svg" width="480" alt="블로그 최신 글 3개">
+  </a>
+</p>
 
+[전체 글 보기](https://hyun-git.github.io/study)
 ---
 
 ### 📊 GitHub Activity
